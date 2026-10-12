@@ -1,0 +1,76 @@
+{
+  "operating_point": {
+    "threshold": 0.2928,
+    "target_recall": 0.95,
+    "accuracy": 0.9038,
+    "precision": 0.875,
+    "recall": 0.9872,
+    "specificity": 0.765,
+    "f1": 0.9277,
+    "f2": 0.9625,
+    "roc_auc": 0.9744,
+    "pr_auc": 0.979,
+    "tn": 179,
+    "fp": 55,
+    "fn": 5,
+    "tp": 385
+  },
+  "max_f2_point": {
+    "threshold": 0.1247,
+    "accuracy": 0.8766,
+    "precision": 0.8395,
+    "recall": 0.9923,
+    "specificity": 0.6838,
+    "f1": 0.9095,
+    "f2": 0.9574,
+    "roc_auc": 0.9744,
+    "pr_auc": 0.979,
+    "tn": 160,
+    "fp": 74,
+    "fn": 3,
+    "tp": 387
+  },
+  "default_0p5": {
+    "accuracy": 0.9295,
+    "precision": 0.9199,
+    "recall": 0.9718,
+    "specificity": 0.859,
+    "f1": 0.9451,
+    "f2": 0.961,
+    "roc_auc": 0.9744,
+    "pr_auc": 0.979,
+    "tn": 201,
+    "fp": 33,
+    "fn": 11,
+    "tp": 379
+  },
+  "bootstrap_95ci": {
+    "accuracy": [
+      0.8814,
+      0.9279
+    ],
+    "precision": [
+      0.8438,
+      0.9077
+    ],
+    "recall": [
+      0.9739,
+      0.9974
+    ],
+    "specificity": [
+      0.7118,
+      0.8214
+    ],
+    "f1": [
+      0.9097,
+      0.9469
+    ],
+    "roc_auc": [
+      0.96,
+      0.9867
+    ]
+  },
+  "n_test": 624,
+  "n_normal": 234,
+  "n_pneumonia": 390
+}
